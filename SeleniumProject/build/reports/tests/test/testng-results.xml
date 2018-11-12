@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite1" duration-ms="12275" started-at="2018-11-10T18:27:09Z" finished-at="2018-11-10T18:27:21Z">
+    <groups>
+    </groups>
+    <test name="test1" duration-ms="12275" started-at="2018-11-10T18:27:09Z" finished-at="2018-11-10T18:27:21Z">
+      <class name="com.selenium.test.TestNGSimpleTest2">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.selenium.test.TestNGSimpleTest2@293712c7]" name="setup" is-config="true" duration-ms="16" started-at="2018-11-10T18:27:21Z" finished-at="2018-11-10T18:27:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="testDivide()[pri:0, instance:com.selenium.test.TestNGSimpleTest2@293712c7]" name="testDivide" duration-ms="16" started-at="2018-11-10T18:27:21Z" finished-at="2018-11-10T18:27:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDivide -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.selenium.test.TestNGSimpleTest2@293712c7]" name="tearDown" is-config="true" duration-ms="0" started-at="2018-11-10T18:27:21Z" finished-at="2018-11-10T18:27:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.selenium.test.TestNGSimpleTest2 -->
+      <class name="com.selenium.test.TestNGSimpleTest1">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.selenium.test.TestNGSimpleTest1@4f42487e]" name="setup" is-config="true" duration-ms="31" started-at="2018-11-10T18:27:09Z" finished-at="2018-11-10T18:27:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="testAdd()[pri:0, instance:com.selenium.test.TestNGSimpleTest1@4f42487e]" name="testAdd" duration-ms="12212" started-at="2018-11-10T18:27:09Z" finished-at="2018-11-10T18:27:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAdd -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.selenium.test.TestNGSimpleTest1@4f42487e]" name="tearDown" is-config="true" duration-ms="0" started-at="2018-11-10T18:27:21Z" finished-at="2018-11-10T18:27:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.selenium.test.TestNGSimpleTest1 -->
+    </test> <!-- test1 -->
+  </suite> <!-- Suite1 -->
+</testng-results>
