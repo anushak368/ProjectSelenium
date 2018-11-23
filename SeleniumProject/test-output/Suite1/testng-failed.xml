@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite configfailurepolicy="continue" guice-stage="DEVELOPMENT" name="Failed suite [Suite1]">
+  <listeners>
+    <listener class-name="com.selenium.framework.TestListener"/>
+  </listeners>
+  <test thread-count="5" name="test1(failed)">
+    <classes>
+      <class name="com.selenium.test.OnboardingSchool">
+        <methods>
+          <include name="setup"/>
+          <include name="verifyClickingOfUploadXLSXFile"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.selenium.test.OnboardingSchool -->
+    </classes>
+  </test> <!-- test1(failed) -->
+</suite> <!-- Failed suite [Suite1] -->

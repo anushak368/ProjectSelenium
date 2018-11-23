@@ -2,7 +2,9 @@ package com.selenium.framework;
 
 import org.openqa.selenium.WebDriver;
 
-import static com.selenium.framework.DriverFactory.Browser.*;
+import static com.selenium.framework.DriverFactory.Browser.valueOf;
+
+import java.util.concurrent.TimeUnit;
 
 public class DriverFactory {
 
@@ -10,9 +12,21 @@ public class DriverFactory {
         Chrome, Firefox, IE
     }
 
+    public static WebDriver driver;
+
     public static WebDriver getDriver() {
+        if (driver == null) {
+            driver = getWebDriver();
+        }
+        return driver;
+    }
+
+    public static void wait(int seconds) {
+		getDriver().manage().timeouts().implicitlyWait(seconds, TimeUnit.SECONDS);    	
+    }
+    
+    private static WebDriver getWebDriver() {
         String browser = "Chrome";
-        
         //String browser = "Firefox";
         Driver driver;
         switch (valueOf(browser)) {

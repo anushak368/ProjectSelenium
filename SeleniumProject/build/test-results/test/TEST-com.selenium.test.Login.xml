@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.selenium.test.Login" tests="2" skipped="0" failures="0" errors="0" timestamp="2018-11-18T17:39:51" hostname="DESKTOP-L9FPGM3" time="1.436">
+  <properties/>
+  <testcase name="verfiyLoginFailure" classname="com.selenium.test.Login" time="0.664"/>
+  <testcase name="verfiyLoginSuccess" classname="com.selenium.test.Login" time="0.77"/>
+  <system-out><![CDATA[Able to choose the usename field(410, 40)
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

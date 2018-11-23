@@ -1,12 +1,16 @@
 <?xml version = "1.0" encoding = "UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
 
-<suite name = "Suite1" configfailurepolicy="continue">
-    <test name = "test1">
+<suite name="Suite1" configfailurepolicy="continue">
+    <listeners>
+        <listener class-name="com.selenium.framework.TestListener"></listener>
+    </listeners>
+    <test name="test1">
         <classes>
-            <class name = "com.selenium.test.TestNGSimpleTest1"/>
-            <class name = "com.selenium.test.TestNGSimpleTest2"/>
             <class name = "com.selenium.test.Login"/>
+            <class name = "com.selenium.test.Logout"/>
+            <class name = "com.selenium.test.Dashboard"/>
+            <class name = "com.selenium.test.OnboardingSchool"/>
         </classes>
     </test>
 </suite>

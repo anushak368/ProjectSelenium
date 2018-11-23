@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.selenium.test.OnboardingSchool" tests="2" skipped="1" failures="0" errors="0" timestamp="2018-11-18T17:40:34" hostname="DESKTOP-L9FPGM3" time="2.531">
+  <properties/>
+  <testcase name="verifyToClickOnOnboardingSchool" classname="com.selenium.test.OnboardingSchool" time="1.549"/>
+  <testcase name="verifyClickingOfUploadXLSXFile" classname="com.selenium.test.OnboardingSchool" time="0.981">
+    <skipped/>
+  </testcase>
+  <system-out><![CDATA[Able to choose the usename field(410, 40)
+Dashboard text is verified successfully
+Executed Total Active Schools text.
+Executed Total In-Active Schools text.
+Executed No of schools program running text.
+Executed No of schools program Yet start text.
+** in onTestFailure method
+** in onTestFailure method
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

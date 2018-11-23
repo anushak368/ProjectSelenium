@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.selenium.test.Dashboard" tests="1" skipped="0" failures="0" errors="0" timestamp="2018-11-18T17:40:20" hostname="DESKTOP-L9FPGM3" time="1.381">
+  <properties/>
+  <testcase name="Dashboard" classname="com.selenium.test.Dashboard" time="1.381"/>
+  <system-out><![CDATA[Able to choose the usename field(410, 40)
+Dashboard text is verified successfully
+Executed Total Schools text.
+Executed Total Coordinators text.
+Executed Total Students text.
+Executed Total Teachers text.
+Executed Total Assessments text.
+Executed Total Reports Generated text.
+Executed Total Care N Grow Users text.
+Executed Total Tablets text.
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
